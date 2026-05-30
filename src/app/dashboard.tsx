@@ -188,14 +188,9 @@ const styles = StyleSheet.create({
         padding:10,
         display:"flex",
         alignItems:"center",
-        justifyContent:"center",
-        gap:10
-    },
-    tasksContainer:{
-        display:"flex",
-        alignItems:"center",
-        justifyContent:"center",
-        gap:8,
+        justifyContent:"flex-start",
+        gap:10,
+        overflowY:"auto",
         flex:1
     },
 
